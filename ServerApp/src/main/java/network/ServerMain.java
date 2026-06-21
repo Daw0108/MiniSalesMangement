@@ -6,7 +6,7 @@ import java.net.Socket;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-public class MServerMain {
+public class ServerMain {
     private static final int PORT = 9000;
     private static ExecutorService threadPool = Executors.newFixedThreadPool(20);
 
